@@ -44,7 +44,7 @@ export default function Home() {
             className="col-4 "
           >
             <div
-              classname=" card align-items-center "
+              classname="card align-items-center "
               style={{
                 backgroundColor: "gold",
                 borderRadius: 5,
