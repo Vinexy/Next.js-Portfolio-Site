@@ -1,3 +1,5 @@
+![ezgif com-optimize (2)](https://user-images.githubusercontent.com/85889196/227758452-9d2c9cdb-eaa9-4e6f-be96-a0942174a8ca.gif)
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
