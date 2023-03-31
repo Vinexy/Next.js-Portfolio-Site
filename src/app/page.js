@@ -391,7 +391,7 @@ export default function Home() {
           <motion.div
             whileHover={{ scale: 1.7 }}
             whileTap={{ scale: 1 }}
-            className="col-3 "
+            className="col-xs-12 col-sm-3 "
           >
             <div
               classname=" card align-items-center "
@@ -420,7 +420,7 @@ export default function Home() {
           <motion.div
             whileHover={{ scale: 1.7 }}
             whileTap={{ scale: 1 }}
-            className="col-3 "
+            className="col-xs-12 col-sm-3 "
           >
             <div
               classname=" card align-items-center "
@@ -448,7 +448,7 @@ export default function Home() {
           <motion.div
             whileHover={{ scale: 1.7 }}
             whileTap={{ scale: 1 }}
-            className="col-3 "
+            className="col-xs-12 col-sm-3 "
           >
             <div
               classname=" card align-items-center "
@@ -475,7 +475,7 @@ export default function Home() {
           <motion.div
             whileHover={{ scale: 1.7 }}
             whileTap={{ scale: 1 }}
-            className="col-3 "
+            className="col-xs-12 col-sm-3 "
           >
             <div
               classname=" card align-items-center "
@@ -504,7 +504,7 @@ export default function Home() {
           <motion.div
             whileHover={{ scale: 1.7 }}
             whileTap={{ scale: 1 }}
-            className="col-3 "
+            className="col-xs-12 col-sm-3 "
           >
             <div
               classname=" card align-items-center "
@@ -533,7 +533,7 @@ export default function Home() {
           <motion.div
             whileHover={{ scale: 1.7 }}
             whileTap={{ scale: 1 }}
-            className="col-3 "
+            className="col-xs-12 col-sm-3 "
           >
             <div
               classname=" card align-items-center "
@@ -562,7 +562,7 @@ export default function Home() {
           <motion.div
             whileHover={{ scale: 1.7 }}
             whileTap={{ scale: 1 }}
-            className="col-3 "
+            className="col-xs-12 col-sm-3 "
           >
             <div
               classname=" card align-items-center "
@@ -591,7 +591,7 @@ export default function Home() {
           <motion.div
             whileHover={{ scale: 1.7 }}
             whileTap={{ scale: 1 }}
-            className="col-3 "
+            className="col-xs-12 col-sm-3 "
           >
             <div
               classname=" card align-items-center "
