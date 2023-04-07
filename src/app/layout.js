@@ -9,14 +9,14 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <Head>
+      <head>
           <script
             async
             src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${process.env.NEXT_PUBLIC_GOOGLE_ADSENSE}`}
             strategy="lazyOnload"
             crossOrigin="anonymous"
           />
-        </Head>
+        </head>
 
       <body>{children}</body>
     </html>
