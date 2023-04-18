@@ -12,7 +12,6 @@ const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   return (
-    
     <div className={styles.main}>
       <div
         style={{
@@ -384,6 +383,93 @@ export default function Home() {
               </h5>
             </div>
           </motion.div>
+          {/* pos-neg comment */}
+          <motion.div
+            whileHover={{ scale: 1.7 }}
+            whileTap={{ scale: 1 }}
+            className="col-sm-4 col-xs-12"
+          >
+            <div
+              classname="card align-items-center "
+              style={{
+                backgroundColor: "gold",
+                borderRadius: 5,
+              }}
+            >
+              <Link href="https://github.com/Vinexy/DeepLearning">
+                <Image
+                  src="https://user-images.githubusercontent.com/85889196/232251935-0e6c7836-7034-482c-a4bc-a732a5495186.gif"
+                  alt="Image"
+                  width={400}
+                  height={250}
+                  style={{ borderTopLeftRadius: 5, borderTopRightRadius: 5 }}
+                  className="shdwBlack card-img-top pad  borderColorr "
+                  unoptimized
+                />
+              </Link>
+              <h5 className="shdw bg-body-tertiary p-1 rounded-bottom ">
+                Deep NLP Pos-Neg Comment Discriminator{" "}
+              </h5>
+            </div>
+          </motion.div>
+          {/* Chess */}
+          <motion.div
+            whileHover={{ scale: 1.7 }}
+            whileTap={{ scale: 1 }}
+            className="col-sm-4 col-xs-12"
+          >
+            <div
+              classname=" card align-items-center "
+              style={{
+                backgroundColor: "gold",
+                borderRadius: 5,
+              }}
+            >
+              <Link href="https://github.com/Vinexy/DeepLearning">
+                <Image
+                  src="https://user-images.githubusercontent.com/85889196/232251944-02081294-0225-4de0-af5e-63c6eccdc453.gif"
+                  alt="Image"
+                  width={400}
+                  height={250}
+                  style={{ borderTopLeftRadius: 5, borderTopRightRadius: 5 }}
+                  className="shdwBlack card-img-top pad  borderColorr "
+                  unoptimized
+                />
+              </Link>
+              <h5 className="rigShdw bg-body-tertiary p-1 rounded-bottom ">
+                Deep Retinanet Chess Piece Recognition
+              </h5>
+            </div>
+          </motion.div>
+          {/* Facial Expression */}
+          <motion.div
+            whileHover={{ scale: 1.7 }}
+            whileTap={{ scale: 1 }}
+            className="col-sm-4 col-xs-12"
+          >
+            <div
+              classname=" card align-items-center "
+              style={{
+                backgroundColor: "gold",
+                borderRadius: 5,
+              }}
+            >
+              <Link href="https://github.com/Vinexy/DeepLearning">
+                <Image
+                  src="https://user-images.githubusercontent.com/85889196/232251952-1ad392c4-a805-47f4-aff1-bab315f3676c.gif"
+                  alt="Image"
+                  width={400}
+                  height={250}
+                  style={{ borderTopLeftRadius: 5, borderTopRightRadius: 5 }}
+                  className="shdwBlack card-img-top pad  borderColorr "
+                  unoptimized
+                />
+              </Link>
+              <h5 className="shdw bg-body-tertiary p-1 rounded-bottom ">
+                Deep Conv Facial Expression Recognition
+              </h5>
+            </div>
+          </motion.div>
 
           {/* ******* */}
 
@@ -440,7 +526,8 @@ export default function Home() {
                   unoptimized
                 />
               </Link>
-              <h5 className="midShdw bg-body-tertiary p-1 rounded-bottom ">OpenCV Video Text Detection
+              <h5 className="midShdw bg-body-tertiary p-1 rounded-bottom ">
+                OpenCV Video Text Detection
               </h5>
             </div>
           </motion.div>
@@ -468,7 +555,9 @@ export default function Home() {
                   unoptimized
                 />
               </Link>
-              <h5 className="midShdw bg-body-tertiary p-1 rounded-bottom ">Unity Space Shooter Game</h5>
+              <h5 className="midShdw bg-body-tertiary p-1 rounded-bottom ">
+                Unity Space Shooter Game
+              </h5>
             </div>
           </motion.div>
           {/* Code talks */}
@@ -613,6 +702,35 @@ export default function Home() {
               </Link>
               <h5 className="rigShdw bg-body-tertiary p-1 rounded-bottom ">
                 React Native e-store App Style
+              </h5>
+            </div>
+          </motion.div>
+          {/* gans */}
+          <motion.div
+            whileHover={{ scale: 1.7 }}
+            whileTap={{ scale: 1 }}
+            className="col-xs-12 col-sm-3 "
+          >
+            <div
+              classname=" card align-items-center "
+              style={{
+                backgroundColor: "gold",
+                borderRadius: 5,
+              }}
+            >
+              <Link href="https://github.com/Vinexy/DeepLearning">
+                <Image
+                  src="https://user-images.githubusercontent.com/85889196/232251937-5da0a02c-4722-4754-a06d-a217dcc09718.gif"
+                  alt="Image"
+                  width={400}
+                  height={400}
+                  style={{ borderTopLeftRadius: 5, borderTopRightRadius: 5 }}
+                  className="shdwBlack card-img-top pad  borderColorr "
+                  unoptimized
+                />
+              </Link>
+              <h5 className="shdw bg-body-tertiary p-1 rounded-bottom ">
+                Deep GANs Synthetic Clothes
               </h5>
             </div>
           </motion.div>
