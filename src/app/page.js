@@ -3,16 +3,40 @@ import Image from "next/image";
 import { Inter } from "next/font/google";
 import styles from "./page.module.css";
 import "bootstrap/dist/css/bootstrap.css";
-import { useState } from "react";
-import { motion } from "framer-motion";
+import { useRef, useState } from "react";
+import { useAnimationFrame, motion } from "framer-motion";
 import Link from "next/link";
 import wallpaper from "./photos/a.png";
+import profileP from "./photos/pp.jpeg";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
+  const ref = useRef(null);
+  useAnimationFrame((t) => {
+    const rotate = Math.sin(t / 10000) * 200;
+    const y = (1 + Math.sin(t / 1000)) * -50;
+    ref.current.style.transform = `translateY(${y}px) rotateX(${rotate}deg) rotateY(${rotate}deg)`;
+  });
   return (
     <div className={styles.main}>
+      <div className="cube" ref={ref}>
+        <div className="side front">AHMET FATIH COPUR</div>
+        <div className="side left">COMPUTER ENGINEER</div>
+        <div className="side right">ANKARA YILDIRIM BEYAZIT UNIVERSITY</div>
+        <div className="side top">DEVELOPER</div>
+        <div className="side bottom">
+          <Image
+            src={profileP}
+            alt="Image"
+            
+            style={{ borderTopLeftRadius: 5, borderTopRightRadius: 5 }}
+            className="shdwBlack card-img-top pad  borderColorr "
+            fill
+          />
+        </div>
+        <div className="side back"></div>
+      </div>
       <div
         style={{
           zIndex: -1,
@@ -34,6 +58,7 @@ export default function Home() {
         />
       </div>
       <h1 className={styles.h1}>My Projects</h1>
+
       <div className="container text-center card-group ">
         <div className="row  g-4 ">
           {/* SİGMA */}

@@ -23,3 +23,59 @@
   .rigShdw{
     box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
   }
+
+  
+  .cube {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    transform-style: preserve-3d;
+    display: flex;
+    margin-top: 8%;
+    left: 3%;
+  }
+  
+  .side {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: red;
+    opacity: 0.7;
+    color: bisque;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: x-large;
+    text-align: center;
+    justify-self: center;
+    align-self: center;
+    padding-top:30%;
+    justify-content: center;
+    font-weight: bold;
+  }
+  
+  .front {
+    transform: rotateY(0deg) translateZ(100px);
+    background-color: darkslateblue;
+  }
+  .right {
+    transform: rotateY(90deg) translateZ(100px);
+    background-color: darkgoldenrod;
+    padding-top:10%;
+
+  }
+  .back {
+    transform: rotateY(180deg) translateZ(100px);
+    background-color: darkslateblue;
+  }
+  .left {
+    transform: rotateY(-90deg) translateZ(100px);
+    background-color: darkgoldenrod;
+  }
+  .top {
+    transform: rotateX(90deg) translateZ(100px);
+    background-color: darkslateblue;
+  }
+  .bottom {
+    transform: rotateX(-90deg) translateZ(100px);
+    background-color: darkgoldenrod;
+    padding-top:0%;
+  }
