@@ -114,7 +114,7 @@ export default function Home() {
                 />
               </Link>
               <h5 className="midShdw bg-body-tertiary p-1 rounded-bottom ">
-                Unity Face Detection Brick Breaker
+                Unity AR Face Detection Brick Breaker
               </h5>
             </div>
           </motion.div>
@@ -756,6 +756,35 @@ export default function Home() {
               </Link>
               <h5 className="shdw bg-body-tertiary p-1 rounded-bottom ">
                 Deep GANs Synthetic Clothes
+              </h5>
+            </div>
+          </motion.div>
+          {/* furniture */}
+          <motion.div
+            whileHover={{ scale: 1.7 }}
+            whileTap={{ scale: 1 }}
+            className="col-xs-12 col-sm-3 "
+          >
+            <div
+              classname=" card align-items-center "
+              style={{
+                backgroundColor: "gold",
+                borderRadius: 5,
+              }}
+            >
+              <Link href="https://github.com/Vinexy/Unity-AR-Furniture-Position">
+                <Image
+                  src="https://user-images.githubusercontent.com/85889196/236079312-dba78a05-ee45-4186-8947-31b25eba073b.gif"
+                  alt="Image"
+                  width={400}
+                  height={400}
+                  style={{ borderTopLeftRadius: 5, borderTopRightRadius: 5 }}
+                  className="shdwBlack card-img-top pad  borderColorr "
+                  unoptimized
+                />
+              </Link>
+              <h5 className="midShdw bg-body-tertiary p-1 rounded-bottom ">
+                Unity AR Furniture Position App
               </h5>
             </div>
           </motion.div>
