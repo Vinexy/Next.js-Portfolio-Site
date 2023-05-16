@@ -20,12 +20,12 @@ export default function Home() {
   });
   return (
     <div className={styles.main}>
-      <div className="cube" ref={ref}>
-        <div className="side front">AHMET FATIH COPUR</div>
-        <div className="side left">COMPUTER ENGINEER</div>
-        <div className="side right">ANKARA YILDIRIM BEYAZIT UNIVERSITY</div>
-        <div className="side top">DEVELOPER</div>
-        <div className="side bottom">
+      <div className="cube d-none d-sm-block" ref={ref}>
+        <div className="side front ">AHMET FATIH COPUR</div>
+        <div className="side left ">COMPUTER ENGINEER</div>
+        <div className="side right ">ANKARA YILDIRIM BEYAZIT UNIVERSITY</div>
+        <div className="side top ">DEVELOPER</div>
+        <div className="side bottom ">
           <Image
             src={profileP}
             alt="Image"
@@ -35,7 +35,7 @@ export default function Home() {
             fill
           />
         </div>
-        <div className="side back"></div>
+        <div className="side back "></div>
       </div>
       <div
         style={{
@@ -444,7 +444,7 @@ export default function Home() {
             className="col-sm-4 col-xs-12"
           >
             <div
-              classname=" card align-items-center "
+              classname="card align-items-center"
               style={{
                 backgroundColor: "gold",
                 borderRadius: 5,
@@ -457,7 +457,7 @@ export default function Home() {
                   width={400}
                   height={250}
                   style={{ borderTopLeftRadius: 5, borderTopRightRadius: 5 }}
-                  className="shdwBlack card-img-top pad  borderColorr "
+                  className="shdwBlack card-img-top pad  borderColorr"
                   unoptimized
                 />
               </Link>
@@ -495,10 +495,41 @@ export default function Home() {
               </h5>
             </div>
           </motion.div>
+          {/* make it talk */}
+          <motion.div
+            whileHover={{ scale: 1.7 }}
+            whileTap={{ scale: 1 }}
+            className="col-sm-4 col-xs-12"
+          >
+            <div
+              classname="card align-items-center "
+              style={{
+                backgroundColor: "gold",
+                borderRadius: 5,
+              }}
+            >
+              <Link href="https://github.com/Vinexy/DeepLearning">
+                <Image
+                  src="https://github.com/Vinexy/DeepLearning/assets/85889196/77340a41-28f0-4e12-8d76-7b81af2766f8"
+                  alt="Image"
+                  width={400}
+                  height={250}
+                  style={{ borderTopLeftRadius: 5, borderTopRightRadius: 5 }}
+                  className="shdwBlack card-img-top pad  borderColorr "
+                  unoptimized
+                />
+              </Link>
+              <h5 className="shdw bg-body-tertiary p-1 rounded-bottom">
+                Deep Talking Photos with MakeItTalk{" "}
+              </h5>
+            </div>
+          </motion.div>
+              
 
           {/* ******* */}
-
-          {/* Face Mask */}
+              
+          <div className="row  g-4 ">
+            {/* Face Mask */}
           <motion.div
             whileHover={{ scale: 1.7 }}
             whileTap={{ scale: 1 }}
@@ -788,6 +819,7 @@ export default function Home() {
               </h5>
             </div>
           </motion.div>
+          </div>
         </div>
       </div>
     </div>
