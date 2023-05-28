@@ -29,7 +29,6 @@ export default function Home() {
           <Image
             src={profileP}
             alt="Image"
-            
             style={{ borderTopLeftRadius: 5, borderTopRightRadius: 5 }}
             className="shdwBlack card-img-top pad  borderColorr "
             fill
@@ -524,301 +523,329 @@ export default function Home() {
               </h5>
             </div>
           </motion.div>
-              
+          {/* hand move site */}
+          <motion.div
+            whileHover={{ scale: 1.7 }}
+            whileTap={{ scale: 1 }}
+            className="col-sm-4 col-xs-12"
+          >
+            <div
+              classname="card align-items-center"
+              style={{
+                backgroundColor: "gold",
+                borderRadius: 5,
+              }}
+            >
+              <Link href="https://github.com/Vinexy/NextJS-Projects/tree/master/gesture-recognition">
+                <Image
+                  src="https://github.com/Vinexy/NextJS-Projects/assets/85889196/15dde65b-abb5-44f5-868d-0d96fa96bbd4"
+                  alt="Image"
+                  width={400}
+                  height={250}
+                  style={{ borderTopLeftRadius: 5, borderTopRightRadius: 5 }}
+                  className="shdwBlack card-img-top pad  borderColorr"
+                  unoptimized
+                />
+              </Link>
+              <h5 className="rigShdw bg-body-tertiary p-1 rounded-bottom ">
+                React Tensorflow Hand Move Site WebCam
+              </h5>
+            </div>
+          </motion.div>
 
           {/* ******* */}
-              
+
           <div className="row  g-4 ">
             {/* Face Mask */}
-          <motion.div
-            whileHover={{ scale: 1.7 }}
-            whileTap={{ scale: 1 }}
-            className="col-xs-12 col-sm-3 "
-          >
-            <div
-              classname=" card align-items-center "
-              style={{
-                backgroundColor: "gold",
-                borderRadius: 5,
-              }}
+            <motion.div
+              whileHover={{ scale: 1.7 }}
+              whileTap={{ scale: 1 }}
+              className="col-xs-12 col-sm-3 "
             >
-              <Link href="https://github.com/Vinexy/Unity-Face-Mask-Android">
-                <Image
-                  src="https://user-images.githubusercontent.com/85889196/222955010-e690b80c-9526-4197-9e5b-b05849c2b8bd.gif"
-                  alt="Image"
-                  width={400}
-                  height={400}
-                  style={{ borderTopLeftRadius: 5, borderTopRightRadius: 5 }}
-                  className="shdwBlack card-img-top pad  borderColorr "
-                  unoptimized
-                />
-              </Link>
-              <h5 className="shdw bg-body-tertiary p-1 rounded-bottom ">
-                Unity Face Mask Android
-              </h5>
-            </div>
-          </motion.div>
-          {/* video detect */}
-          <motion.div
-            whileHover={{ scale: 1.7 }}
-            whileTap={{ scale: 1 }}
-            className="col-xs-12 col-sm-3 "
-          >
-            <div
-              classname=" card align-items-center "
-              style={{
-                backgroundColor: "gold",
-                borderRadius: 5,
-              }}
+              <div
+                classname=" card align-items-center "
+                style={{
+                  backgroundColor: "gold",
+                  borderRadius: 5,
+                }}
+              >
+                <Link href="https://github.com/Vinexy/Unity-Face-Mask-Android">
+                  <Image
+                    src="https://user-images.githubusercontent.com/85889196/222955010-e690b80c-9526-4197-9e5b-b05849c2b8bd.gif"
+                    alt="Image"
+                    width={400}
+                    height={400}
+                    style={{ borderTopLeftRadius: 5, borderTopRightRadius: 5 }}
+                    className="shdwBlack card-img-top pad  borderColorr "
+                    unoptimized
+                  />
+                </Link>
+                <h5 className="shdw bg-body-tertiary p-1 rounded-bottom ">
+                  Unity Face Mask Android
+                </h5>
+              </div>
+            </motion.div>
+            {/* video detect */}
+            <motion.div
+              whileHover={{ scale: 1.7 }}
+              whileTap={{ scale: 1 }}
+              className="col-xs-12 col-sm-3 "
             >
-              <Link href="https://github.com/Vinexy/Live-Video-Text-Detection-Using-Pytesseract-OpenCV">
-                <Image
-                  src="https://user-images.githubusercontent.com/85889196/227754190-390a42ba-ee25-4898-9bfb-3efa354d7eec.gif"
-                  alt="Image"
-                  width={400}
-                  height={400}
-                  style={{ borderTopLeftRadius: 5, borderTopRightRadius: 5 }}
-                  className="shdwBlack card-img-top pad  borderColorr "
-                  unoptimized
-                />
-              </Link>
-              <h5 className="midShdw bg-body-tertiary p-1 rounded-bottom ">
-                OpenCV Video Text Detection
-              </h5>
-            </div>
-          </motion.div>
-          {/* spaceshooter */}
-          <motion.div
-            whileHover={{ scale: 1.7 }}
-            whileTap={{ scale: 1 }}
-            className="col-xs-12 col-sm-3 "
-          >
-            <div
-              classname=" card align-items-center "
-              style={{
-                backgroundColor: "gold",
-                borderRadius: 5,
-              }}
+              <div
+                classname=" card align-items-center "
+                style={{
+                  backgroundColor: "gold",
+                  borderRadius: 5,
+                }}
+              >
+                <Link href="https://github.com/Vinexy/Live-Video-Text-Detection-Using-Pytesseract-OpenCV">
+                  <Image
+                    src="https://user-images.githubusercontent.com/85889196/227754190-390a42ba-ee25-4898-9bfb-3efa354d7eec.gif"
+                    alt="Image"
+                    width={400}
+                    height={400}
+                    style={{ borderTopLeftRadius: 5, borderTopRightRadius: 5 }}
+                    className="shdwBlack card-img-top pad  borderColorr "
+                    unoptimized
+                  />
+                </Link>
+                <h5 className="midShdw bg-body-tertiary p-1 rounded-bottom ">
+                  OpenCV Video Text Detection
+                </h5>
+              </div>
+            </motion.div>
+            {/* spaceshooter */}
+            <motion.div
+              whileHover={{ scale: 1.7 }}
+              whileTap={{ scale: 1 }}
+              className="col-xs-12 col-sm-3 "
             >
-              <Link href="https://github.com/Vinexy/Unity-Space-Shooter-Game">
-                <Image
-                  src="https://user-images.githubusercontent.com/85889196/227754549-c1c110ae-5568-45f0-9657-71d3b1f96fb7.gif"
-                  alt="Image"
-                  width={400}
-                  height={400}
-                  style={{ borderTopLeftRadius: 5, borderTopRightRadius: 5 }}
-                  className="shdwBlack card-img-top pad  borderColorr "
-                  unoptimized
-                />
-              </Link>
-              <h5 className="midShdw bg-body-tertiary p-1 rounded-bottom ">
-                Unity Space Shooter Game
-              </h5>
-            </div>
-          </motion.div>
-          {/* Code talks */}
-          <motion.div
-            whileHover={{ scale: 1.7 }}
-            whileTap={{ scale: 1 }}
-            className="col-xs-12 col-sm-3 "
-          >
-            <div
-              classname=" card align-items-center "
-              style={{
-                backgroundColor: "gold",
-                borderRadius: 5,
-              }}
+              <div
+                classname=" card align-items-center "
+                style={{
+                  backgroundColor: "gold",
+                  borderRadius: 5,
+                }}
+              >
+                <Link href="https://github.com/Vinexy/Unity-Space-Shooter-Game">
+                  <Image
+                    src="https://user-images.githubusercontent.com/85889196/227754549-c1c110ae-5568-45f0-9657-71d3b1f96fb7.gif"
+                    alt="Image"
+                    width={400}
+                    height={400}
+                    style={{ borderTopLeftRadius: 5, borderTopRightRadius: 5 }}
+                    className="shdwBlack card-img-top pad  borderColorr "
+                    unoptimized
+                  />
+                </Link>
+                <h5 className="midShdw bg-body-tertiary p-1 rounded-bottom ">
+                  Unity Space Shooter Game
+                </h5>
+              </div>
+            </motion.div>
+            {/* Code talks */}
+            <motion.div
+              whileHover={{ scale: 1.7 }}
+              whileTap={{ scale: 1 }}
+              className="col-xs-12 col-sm-3 "
             >
-              <Link href="https://github.com/Vinexy/React-Native-Projects/tree/master/CodeTalks">
-                <Image
-                  src="https://user-images.githubusercontent.com/85889196/227106987-af9f9613-2a67-4a47-bb85-5b84b0455240.gif"
-                  alt="Image"
-                  width={400}
-                  height={400}
-                  style={{ borderTopLeftRadius: 5, borderTopRightRadius: 5 }}
-                  className="shdwBlack card-img-top pad  borderColorr "
-                  unoptimized
-                />
-              </Link>
-              <h5 className="rigShdw bg-body-tertiary p-1 rounded-bottom ">
-                React Native Code Talks Firebase
-              </h5>
-            </div>
-          </motion.div>
-          {/* Recipe */}
-          <motion.div
-            whileHover={{ scale: 1.7 }}
-            whileTap={{ scale: 1 }}
-            className="col-xs-12 col-sm-3 "
-          >
-            <div
-              classname=" card align-items-center "
-              style={{
-                backgroundColor: "gold",
-                borderRadius: 5,
-              }}
+              <div
+                classname=" card align-items-center "
+                style={{
+                  backgroundColor: "gold",
+                  borderRadius: 5,
+                }}
+              >
+                <Link href="https://github.com/Vinexy/React-Native-Projects/tree/master/CodeTalks">
+                  <Image
+                    src="https://user-images.githubusercontent.com/85889196/227106987-af9f9613-2a67-4a47-bb85-5b84b0455240.gif"
+                    alt="Image"
+                    width={400}
+                    height={400}
+                    style={{ borderTopLeftRadius: 5, borderTopRightRadius: 5 }}
+                    className="shdwBlack card-img-top pad  borderColorr "
+                    unoptimized
+                  />
+                </Link>
+                <h5 className="rigShdw bg-body-tertiary p-1 rounded-bottom ">
+                  React Native Code Talks Firebase
+                </h5>
+              </div>
+            </motion.div>
+            {/* Recipe */}
+            <motion.div
+              whileHover={{ scale: 1.7 }}
+              whileTap={{ scale: 1 }}
+              className="col-xs-12 col-sm-3 "
             >
-              <Link href="https://github.com/Vinexy/React-Native-Projects/tree/master/RecipeApp">
-                <Image
-                  src="https://user-images.githubusercontent.com/85889196/227112328-409f317c-57fd-44ca-867d-b4a42f1297c2.gif"
-                  alt="Image"
-                  width={400}
-                  height={400}
-                  style={{ borderTopLeftRadius: 5, borderTopRightRadius: 5 }}
-                  className="shdwBlack card-img-top pad  borderColorr "
-                  unoptimized
-                />
-              </Link>
-              <h5 className="shdw bg-body-tertiary p-1 rounded-bottom ">
-                React Native Recipe App
-              </h5>
-            </div>
-          </motion.div>
-          {/* FindJob App */}
-          <motion.div
-            whileHover={{ scale: 1.7 }}
-            whileTap={{ scale: 1 }}
-            className="col-xs-12 col-sm-3 "
-          >
-            <div
-              classname=" card align-items-center "
-              style={{
-                backgroundColor: "gold",
-                borderRadius: 5,
-              }}
+              <div
+                classname=" card align-items-center "
+                style={{
+                  backgroundColor: "gold",
+                  borderRadius: 5,
+                }}
+              >
+                <Link href="https://github.com/Vinexy/React-Native-Projects/tree/master/RecipeApp">
+                  <Image
+                    src="https://user-images.githubusercontent.com/85889196/227112328-409f317c-57fd-44ca-867d-b4a42f1297c2.gif"
+                    alt="Image"
+                    width={400}
+                    height={400}
+                    style={{ borderTopLeftRadius: 5, borderTopRightRadius: 5 }}
+                    className="shdwBlack card-img-top pad  borderColorr "
+                    unoptimized
+                  />
+                </Link>
+                <h5 className="shdw bg-body-tertiary p-1 rounded-bottom ">
+                  React Native Recipe App
+                </h5>
+              </div>
+            </motion.div>
+            {/* FindJob App */}
+            <motion.div
+              whileHover={{ scale: 1.7 }}
+              whileTap={{ scale: 1 }}
+              className="col-xs-12 col-sm-3 "
             >
-              <Link href="https://github.com/Vinexy/React-Native-Projects/tree/master/FindJobApp">
-                <Image
-                  src="https://user-images.githubusercontent.com/85889196/227112059-ddd76b92-2634-47bc-aeb6-c6a7748dcd35.gif"
-                  alt="Image"
-                  width={400}
-                  height={400}
-                  style={{ borderTopLeftRadius: 5, borderTopRightRadius: 5 }}
-                  className="shdwBlack card-img-top pad  borderColorr "
-                  unoptimized
-                />
-              </Link>
-              <h5 className="midShdw bg-body-tertiary p-1 rounded-bottom ">
-                React Native Find Job App
-              </h5>
-            </div>
-          </motion.div>
-          {/* android todo-list */}
-          <motion.div
-            whileHover={{ scale: 1.7 }}
-            whileTap={{ scale: 1 }}
-            className="col-xs-12 col-sm-3 "
-          >
-            <div
-              classname=" card align-items-center "
-              style={{
-                backgroundColor: "gold",
-                borderRadius: 5,
-              }}
+              <div
+                classname=" card align-items-center "
+                style={{
+                  backgroundColor: "gold",
+                  borderRadius: 5,
+                }}
+              >
+                <Link href="https://github.com/Vinexy/React-Native-Projects/tree/master/FindJobApp">
+                  <Image
+                    src="https://user-images.githubusercontent.com/85889196/227112059-ddd76b92-2634-47bc-aeb6-c6a7748dcd35.gif"
+                    alt="Image"
+                    width={400}
+                    height={400}
+                    style={{ borderTopLeftRadius: 5, borderTopRightRadius: 5 }}
+                    className="shdwBlack card-img-top pad  borderColorr "
+                    unoptimized
+                  />
+                </Link>
+                <h5 className="midShdw bg-body-tertiary p-1 rounded-bottom ">
+                  React Native Find Job App
+                </h5>
+              </div>
+            </motion.div>
+            {/* android todo-list */}
+            <motion.div
+              whileHover={{ scale: 1.7 }}
+              whileTap={{ scale: 1 }}
+              className="col-xs-12 col-sm-3 "
             >
-              <Link href="https://github.com/Vinexy/React-Native-Projects/tree/master/TodoApp">
-                <Image
-                  src="https://user-images.githubusercontent.com/85889196/227112601-242f90c9-b62a-4f14-8b9c-3cac22b5710a.gif"
-                  alt="Image"
-                  width={400}
-                  height={400}
-                  style={{ borderTopLeftRadius: 5, borderTopRightRadius: 5 }}
-                  className="shdwBlack card-img-top pad  borderColorr "
-                  unoptimized
-                />
-              </Link>
-              <h5 className="midShdw bg-body-tertiary p-1 rounded-bottom ">
-                React Native Todo App
-              </h5>
-            </div>
-          </motion.div>
-          {/* E-store native */}
-          <motion.div
-            whileHover={{ scale: 1.7 }}
-            whileTap={{ scale: 1 }}
-            className="col-xs-12 col-sm-3 "
-          >
-            <div
-              classname=" card align-items-center "
-              style={{
-                backgroundColor: "gold",
-                borderRadius: 5,
-              }}
+              <div
+                classname=" card align-items-center "
+                style={{
+                  backgroundColor: "gold",
+                  borderRadius: 5,
+                }}
+              >
+                <Link href="https://github.com/Vinexy/React-Native-Projects/tree/master/TodoApp">
+                  <Image
+                    src="https://user-images.githubusercontent.com/85889196/227112601-242f90c9-b62a-4f14-8b9c-3cac22b5710a.gif"
+                    alt="Image"
+                    width={400}
+                    height={400}
+                    style={{ borderTopLeftRadius: 5, borderTopRightRadius: 5 }}
+                    className="shdwBlack card-img-top pad  borderColorr "
+                    unoptimized
+                  />
+                </Link>
+                <h5 className="midShdw bg-body-tertiary p-1 rounded-bottom ">
+                  React Native Todo App
+                </h5>
+              </div>
+            </motion.div>
+            {/* E-store native */}
+            <motion.div
+              whileHover={{ scale: 1.7 }}
+              whileTap={{ scale: 1 }}
+              className="col-xs-12 col-sm-3 "
             >
-              <Link href="https://github.com/Vinexy/React-Native-Projects/tree/master/EStoreApp">
-                <Image
-                  src="https://user-images.githubusercontent.com/85889196/227109030-c6e085f9-65ef-4825-a4bb-d69fb04cfb96.gif"
-                  alt="Image"
-                  width={400}
-                  height={400}
-                  style={{ borderTopLeftRadius: 5, borderTopRightRadius: 5 }}
-                  className="shdwBlack card-img-top pad  borderColorr "
-                  unoptimized
-                />
-              </Link>
-              <h5 className="rigShdw bg-body-tertiary p-1 rounded-bottom ">
-                React Native e-store App Style
-              </h5>
-            </div>
-          </motion.div>
-          {/* gans */}
-          <motion.div
-            whileHover={{ scale: 1.7 }}
-            whileTap={{ scale: 1 }}
-            className="col-xs-12 col-sm-3 "
-          >
-            <div
-              classname=" card align-items-center "
-              style={{
-                backgroundColor: "gold",
-                borderRadius: 5,
-              }}
+              <div
+                classname=" card align-items-center "
+                style={{
+                  backgroundColor: "gold",
+                  borderRadius: 5,
+                }}
+              >
+                <Link href="https://github.com/Vinexy/React-Native-Projects/tree/master/EStoreApp">
+                  <Image
+                    src="https://user-images.githubusercontent.com/85889196/227109030-c6e085f9-65ef-4825-a4bb-d69fb04cfb96.gif"
+                    alt="Image"
+                    width={400}
+                    height={400}
+                    style={{ borderTopLeftRadius: 5, borderTopRightRadius: 5 }}
+                    className="shdwBlack card-img-top pad  borderColorr "
+                    unoptimized
+                  />
+                </Link>
+                <h5 className="rigShdw bg-body-tertiary p-1 rounded-bottom ">
+                  React Native e-store App Style
+                </h5>
+              </div>
+            </motion.div>
+            {/* gans */}
+            <motion.div
+              whileHover={{ scale: 1.7 }}
+              whileTap={{ scale: 1 }}
+              className="col-xs-12 col-sm-3 "
             >
-              <Link href="https://github.com/Vinexy/DeepLearning">
-                <Image
-                  src="https://user-images.githubusercontent.com/85889196/232251937-5da0a02c-4722-4754-a06d-a217dcc09718.gif"
-                  alt="Image"
-                  width={400}
-                  height={400}
-                  style={{ borderTopLeftRadius: 5, borderTopRightRadius: 5 }}
-                  className="shdwBlack card-img-top pad  borderColorr "
-                  unoptimized
-                />
-              </Link>
-              <h5 className="shdw bg-body-tertiary p-1 rounded-bottom ">
-                Deep GANs Synthetic Clothes
-              </h5>
-            </div>
-          </motion.div>
-          {/* furniture */}
-          <motion.div
-            whileHover={{ scale: 1.7 }}
-            whileTap={{ scale: 1 }}
-            className="col-xs-12 col-sm-3 "
-          >
-            <div
-              classname=" card align-items-center "
-              style={{
-                backgroundColor: "gold",
-                borderRadius: 5,
-              }}
+              <div
+                classname=" card align-items-center "
+                style={{
+                  backgroundColor: "gold",
+                  borderRadius: 5,
+                }}
+              >
+                <Link href="https://github.com/Vinexy/DeepLearning">
+                  <Image
+                    src="https://user-images.githubusercontent.com/85889196/232251937-5da0a02c-4722-4754-a06d-a217dcc09718.gif"
+                    alt="Image"
+                    width={400}
+                    height={400}
+                    style={{ borderTopLeftRadius: 5, borderTopRightRadius: 5 }}
+                    className="shdwBlack card-img-top pad  borderColorr "
+                    unoptimized
+                  />
+                </Link>
+                <h5 className="shdw bg-body-tertiary p-1 rounded-bottom ">
+                  Deep GANs Synthetic Clothes
+                </h5>
+              </div>
+            </motion.div>
+            {/* furniture */}
+            <motion.div
+              whileHover={{ scale: 1.7 }}
+              whileTap={{ scale: 1 }}
+              className="col-xs-12 col-sm-3 "
             >
-              <Link href="https://github.com/Vinexy/Unity-AR-Furniture-Position">
-                <Image
-                  src="https://user-images.githubusercontent.com/85889196/236079312-dba78a05-ee45-4186-8947-31b25eba073b.gif"
-                  alt="Image"
-                  width={400}
-                  height={400}
-                  style={{ borderTopLeftRadius: 5, borderTopRightRadius: 5 }}
-                  className="shdwBlack card-img-top pad  borderColorr "
-                  unoptimized
-                />
-              </Link>
-              <h5 className="midShdw bg-body-tertiary p-1 rounded-bottom ">
-                Unity AR Furniture Position App
-              </h5>
-            </div>
-          </motion.div>
+              <div
+                classname=" card align-items-center "
+                style={{
+                  backgroundColor: "gold",
+                  borderRadius: 5,
+                }}
+              >
+                <Link href="https://github.com/Vinexy/Unity-AR-Furniture-Position">
+                  <Image
+                    src="https://user-images.githubusercontent.com/85889196/236079312-dba78a05-ee45-4186-8947-31b25eba073b.gif"
+                    alt="Image"
+                    width={400}
+                    height={400}
+                    style={{ borderTopLeftRadius: 5, borderTopRightRadius: 5 }}
+                    className="shdwBlack card-img-top pad  borderColorr "
+                    unoptimized
+                  />
+                </Link>
+                <h5 className="midShdw bg-body-tertiary p-1 rounded-bottom ">
+                  Unity AR Furniture Position App
+                </h5>
+              </div>
+            </motion.div>
           </div>
         </div>
       </div>
