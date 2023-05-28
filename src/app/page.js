@@ -460,7 +460,7 @@ export default function Home() {
                   unoptimized
                 />
               </Link>
-              <h5 className="rigShdw bg-body-tertiary p-1 rounded-bottom ">
+              <h5 className="midShdw bg-body-tertiary p-1 rounded-bottom ">
                 Deep Retinanet Chess Piece Recognition
               </h5>
             </div>
@@ -489,7 +489,7 @@ export default function Home() {
                   unoptimized
                 />
               </Link>
-              <h5 className="shdw bg-body-tertiary p-1 rounded-bottom ">
+              <h5 className="rigShdw bg-body-tertiary p-1 rounded-bottom ">
                 Deep Conv Facial Expression Recognition
               </h5>
             </div>
@@ -547,7 +547,7 @@ export default function Home() {
                   unoptimized
                 />
               </Link>
-              <h5 className="rigShdw bg-body-tertiary p-1 rounded-bottom ">
+              <h5 className="midShdw bg-body-tertiary p-1 rounded-bottom ">
                 React Tensorflow Hand Move Site WebCam
               </h5>
             </div>
