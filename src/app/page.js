@@ -667,9 +667,7 @@ export default function Home() {
                     unoptimized
                   />
                 </Link>
-                <h5 className="rigShdw bg-body-tertiary p-1 rounded-bottom ">
-                  React Native Code Talks Firebase
-                </h5>
+                <h5 className="rigShdw bg-body-tertiary p-1 rounded-bottom ">React Native Code Talk Firebase</h5>
               </div>
             </motion.div>
             {/* Recipe */}
