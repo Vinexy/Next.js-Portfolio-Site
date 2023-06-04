@@ -846,6 +846,35 @@ export default function Home() {
                 </h5>
               </div>
             </motion.div>
+            {/* voice assist */}
+            <motion.div
+              whileHover={{ scale: 1.7 }}
+              whileTap={{ scale: 1 }}
+              className="col-xs-12 col-sm-3 "
+            >
+              <div
+                classname=" card align-items-center "
+                style={{
+                  backgroundColor: "gold",
+                  borderRadius: 5,
+                }}
+              >
+                <Link href="https://github.com/Vinexy/Unity-AWS-OpenAi-Ai-Voice-Assistant/tree/master">
+                  <Image
+                    src="https://github-production-user-asset-6210df.s3.amazonaws.com/85889196/243145087-66391951-2a21-4407-976b-798919551238.gif"
+                    alt="Image"
+                    width={400}
+                    height={400}
+                    style={{ borderTopLeftRadius: 5, borderTopRightRadius: 5 }}
+                    className="shdwBlack card-img-top pad  borderColorr "
+                    unoptimized
+                  />
+                </Link>
+                <h5 className="midShdw bg-body-tertiary p-1 rounded-bottom ">
+                  Unity AI Voice Assistant AWS
+                </h5>
+              </div>
+            </motion.div>
           </div>
         </div>
       </div>
