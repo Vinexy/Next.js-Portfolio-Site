@@ -667,7 +667,9 @@ export default function Home() {
                     unoptimized
                   />
                 </Link>
-                <h5 className="rigShdw bg-body-tertiary p-1 rounded-bottom ">React Native Code Talk Firebase</h5>
+                <h5 className="rigShdw bg-body-tertiary p-1 rounded-bottom ">
+                  React Native Code Talk Firebase
+                </h5>
               </div>
             </motion.div>
             {/* Recipe */}
@@ -870,6 +872,35 @@ export default function Home() {
                 </Link>
                 <h5 className="midShdw bg-body-tertiary p-1 rounded-bottom ">
                   Unity AI Voice Assistant AWS
+                </h5>
+              </div>
+            </motion.div>
+            {/* E-store native */}
+            <motion.div
+              whileHover={{ scale: 1.7 }}
+              whileTap={{ scale: 1 }}
+              className="col-xs-12 col-sm-3 "
+            >
+              <div
+                classname=" card align-items-center "
+                style={{
+                  backgroundColor: "gold",
+                  borderRadius: 5,
+                }}
+              >
+                <Link href="https://github.com/Vinexy/IdariYasaGPT/assets/85889196/5c26ee6f-d38c-4dd0-981d-c77a26555bd9">
+                  <Image
+                    src="https://github.com/Vinexy/IdariYasaGPT/assets/85889196/5c26ee6f-d38c-4dd0-981d-c77a26555bd9"
+                    alt="Image"
+                    width={400}
+                    height={400}
+                    style={{ borderTopLeftRadius: 5, borderTopRightRadius: 5 }}
+                    className="shdwBlack card-img-top pad  borderColorr "
+                    unoptimized
+                  />
+                </Link>
+                <h5 className="rigShdw bg-body-tertiary p-1 rounded-bottom ">
+                  İdariYasaGPT Langchain OpenAI
                 </h5>
               </div>
             </motion.div>
