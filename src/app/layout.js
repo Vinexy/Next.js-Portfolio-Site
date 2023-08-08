@@ -2,7 +2,7 @@ import './globals.css'
 import Head from 'next/head'
 import Script from 'next/script'
 export const metadata = {
-  title: 'Vinex',
+  title: `Vinex's Portfolio`,
   description: 'Published by Vinex',
 }
 
