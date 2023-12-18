@@ -12,6 +12,147 @@ import profileP from "./photos/pp.jpeg";
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
+  const horizontal = [
+    {
+      name: "Fullstack AI Flask NextJS Medical Diagnose ",
+      vidLink:
+        "https://github.com/Vinexy/Fullstack-AI-Flask-NextJS-Medical-Diagnose/assets/85889196/e2343bac-30fd-4cb8-bb26-4a7294de547b",
+      gitLink:
+        "https://github.com/Vinexy/Fullstack-AI-Flask-NextJS-Medical-Diagnose/tree/main",
+      i: 1,
+    },
+    {
+      name: "React Tensorflow Hand Move Site WebCam",
+      vidLink:
+        "https://github.com/Vinexy/NextJS-Projects/assets/85889196/15dde65b-abb5-44f5-868d-0d96fa96bbd4",
+      gitLink:
+        "https://github.com/Vinexy/NextJS-Projects/tree/master/gesture-recognition",
+      i: 2,
+    },
+    {
+      name: "Deep Talking Photos with MakeItTalk",
+      vidLink:
+        "https://github.com/Vinexy/DeepLearning/assets/85889196/77340a41-28f0-4e12-8d76-7b81af2766f8",
+      gitLink: "https://github.com/Vinexy/DeepLearning",
+      i: 3,
+    },
+    {
+      name: "Unity Mirror Multiplayer Ship War",
+      vidLink:
+        "https://user-images.githubusercontent.com/85889196/227571149-52620a0a-0cff-4be1-9515-76e65b897e49.gif",
+      gitLink: "https://github.com/Vinexy",
+      i: 4,
+    },
+    {
+      name: "Unity AR Face Detection Brick Breaker",
+      vidLink:
+        "https://user-images.githubusercontent.com/85889196/222722464-c3a2e36f-d605-4185-9204-66396bde28a6.gif",
+      gitLink:
+        "https://github.com/Vinexy/Unity-Home-Breaker-Android-Game-Using-Face-Detection",
+      i: 5,
+    },
+    {
+      name: "Unity Augmented Reality Sigma Money",
+      vidLink:
+        "https://user-images.githubusercontent.com/85889196/223253108-0a27dfe7-93d0-49ea-9e5d-7ec5ae720ad7.gif",
+      gitLink:
+        "https://github.com/Vinexy/Unity-Augmented-Reality-Sigma-Money-Project",
+      i: 6,
+    },
+    {
+      name: "React Image to Text from Youtube",
+      vidLink:
+        "https://user-images.githubusercontent.com/85889196/227568031-144852fd-c115-4f9d-87de-a8e89f1ed85c.gif",
+      gitLink:
+        "https://github.com/Vinexy/Redux-React-Projects/tree/master/image-to-text-app",
+      i: 7,
+    },
+    {
+      name: "Deep NLP Pos-Neg Comment Discriminator",
+      vidLink:
+        "https://user-images.githubusercontent.com/85889196/232251935-0e6c7836-7034-482c-a4bc-a732a5495186.gif",
+      gitLink: "https://github.com/Vinexy/DeepLearning",
+      i: 8,
+    },
+    {
+      name: "Deep Conv Facial Expression Recognition",
+      vidLink:
+        "https://user-images.githubusercontent.com/85889196/232251952-1ad392c4-a805-47f4-aff1-bab315f3676c.gif",
+      gitLink: "https://github.com/Vinexy/DeepLearning",
+      i: 9,
+    },
+    {
+      name: "Deep Retinanet Chess Piece Recognition",
+      vidLink:
+        "https://user-images.githubusercontent.com/85889196/232251944-02081294-0225-4de0-af5e-63c6eccdc453.gif",
+      gitLink: "https://github.com/Vinexy/DeepLearning",
+      i: 10,
+    },
+    {
+      name: "Unity Flintstones Platform Game",
+      vidLink:
+        "https://user-images.githubusercontent.com/85889196/227111115-cb79bf63-a596-4d45-ac3f-498dfcf5b405.gif",
+      gitLink: "https://github.com/Vinexy/The-Flintstones-Platform-Game-Unity",
+      i: 11,
+    },
+    {
+      name: "React Redux Typing Speed App",
+      vidLink:
+        "https://user-images.githubusercontent.com/85889196/227572507-fe5c750c-b7fc-40d7-af42-4a05f4260317.gif",
+      gitLink:
+        "https://github.com/Vinexy/Redux-React-Projects/tree/master/typing-speed-app",
+      i: 12,
+    },
+    {
+      name: "React Redux Spend Bill Gates Money",
+      vidLink:
+        "https://user-images.githubusercontent.com/85889196/227575779-1cea1176-4ba0-463c-b944-46d7b772e883.gif",
+      gitLink:
+        "https://github.com/Vinexy/Redux-React-Projects/tree/master/spend-bill-gates-money-app",
+      i: 13,
+    },
+    {
+      name: "React Redux Memory Game",
+      vidLink:
+        "https://user-images.githubusercontent.com/85889196/227575023-d21141b9-8f15-40ba-82ef-f490b2a3f6d8.gif",
+      gitLink:
+        "https://github.com/Vinexy/Redux-React-Projects/tree/master/memory-game-redux",
+      i: 14,
+    },
+    {
+      name: "React Redux Coivd-19 All Countries",
+      vidLink:
+        "https://user-images.githubusercontent.com/85889196/227579516-a395e918-7a52-4c22-ba98-c78c6592be46.gif",
+      gitLink:
+        "https://github.com/Vinexy/Redux-React-Projects/tree/master/covid-19-tracker-app",
+      i: 15,
+    },
+    {
+      name: "React Redux Markdown Previewer",
+      vidLink:
+        "https://user-images.githubusercontent.com/85889196/227578603-d1674a3b-5d95-4f61-a240-8c5272507a90.gif",
+      gitLink:
+        "https://github.com/Vinexy/Redux-React-Projects/tree/master/markdown-reviewer",
+      i: 16,
+    },
+    {
+      name: "React Redux Notes App",
+      vidLink:
+        "https://user-images.githubusercontent.com/85889196/227576877-0464f392-493a-42bf-b200-250c8dc2a7a5.gif",
+      gitLink:
+        "https://github.com/Vinexy/Redux-React-Projects/tree/master/notes-app",
+      i: 17,
+    },
+    {
+      name: "React Redux Weather App",
+      vidLink:
+        "https://user-images.githubusercontent.com/85889196/227577551-0410e140-616f-431c-a806-e785e84b7ff4.gif",
+      gitLink:
+        "https://github.com/Vinexy/Redux-React-Projects/tree/master/Without%20Redux%20Projects/weather-app",
+      i: 18,
+    },
+  ];
+
   const ref = useRef(null);
   useAnimationFrame((t) => {
     const rotate = Math.sin(t / 10000) * 200;
@@ -60,8 +201,9 @@ export default function Home() {
 
       <div className="container text-center card-group ">
         <div className="row  g-4 ">
+          {/*
           {/* SİGMA */}
-          <motion.div
+          {/* <motion.div
             whileHover={{ scale: 1.7 }}
             whileTap={{ scale: 1 }}
             className="col-sm-4 col-xs-12"
@@ -87,9 +229,9 @@ export default function Home() {
                 Unity Augmented Reality Sigma Money{" "}
               </h5>
             </div>
-          </motion.div>
+          </motion.div> */}
           {/* Face Brick Breaker */}
-          <motion.div
+          {/* <motion.div
             whileHover={{ scale: 1.7 }}
             whileTap={{ scale: 1 }}
             className="col-sm-4 col-xs-12"
@@ -116,9 +258,9 @@ export default function Home() {
                 Unity AR Face Detection Brick Breaker
               </h5>
             </div>
-          </motion.div>
+          </motion.div> */}
           {/* Flintstones */}
-          <motion.div
+          {/* <motion.div
             whileHover={{ scale: 1.7 }}
             whileTap={{ scale: 1 }}
             className="col-sm-4 col-xs-12"
@@ -145,9 +287,9 @@ export default function Home() {
                 Unity Flintstones Platform Game
               </h5>
             </div>
-          </motion.div>
+          </motion.div> */}
           {/* Text to image */}
-          <motion.div
+          {/* <motion.div
             whileHover={{ scale: 1.7 }}
             whileTap={{ scale: 1 }}
             className="col-sm-4 col-xs-12"
@@ -174,9 +316,9 @@ export default function Home() {
                 React Image to Text from Youtube
               </h5>
             </div>
-          </motion.div>
+          </motion.div> */}
           {/* Gemi */}
-          <motion.div
+          {/* <motion.div
             whileHover={{ scale: 1.7 }}
             whileTap={{ scale: 1 }}
             className="col-sm-4 col-xs-12"
@@ -203,9 +345,9 @@ export default function Home() {
                 Unity Mirror Multiplayer Ship War
               </h5>
             </div>
-          </motion.div>
+          </motion.div> */}
           {/* Klavye yazma */}
-          <motion.div
+          {/* <motion.div
             whileHover={{ scale: 1.7 }}
             whileTap={{ scale: 1 }}
             className="col-sm-4 col-xs-12"
@@ -232,9 +374,9 @@ export default function Home() {
                 React Redux Typing Speed App
               </h5>
             </div>
-          </motion.div>
+          </motion.div> */}
           {/* Memory game */}
-          <motion.div
+          {/* <motion.div
             whileHover={{ scale: 1.7 }}
             whileTap={{ scale: 1 }}
             className="col-sm-4 col-xs-12"
@@ -261,9 +403,9 @@ export default function Home() {
                 React Redux Memory Game
               </h5>
             </div>
-          </motion.div>
+          </motion.div> */}
           {/* Spen Bill Gates */}
-          <motion.div
+          {/* <motion.div
             whileHover={{ scale: 1.7 }}
             whileTap={{ scale: 1 }}
             className="col-sm-4 col-xs-12"
@@ -290,9 +432,9 @@ export default function Home() {
                 React Redux Spend Bill Gates Money
               </h5>
             </div>
-          </motion.div>
+          </motion.div> */}
           {/* Notes app */}
-          <motion.div
+          {/* <motion.div
             whileHover={{ scale: 1.7 }}
             whileTap={{ scale: 1 }}
             className="col-sm-4 col-xs-12"
@@ -319,9 +461,9 @@ export default function Home() {
                 React Redux Notes App
               </h5>
             </div>
-          </motion.div>
+          </motion.div> */}
           {/* Weather app */}
-          <motion.div
+          {/* <motion.div
             whileHover={{ scale: 1.7 }}
             whileTap={{ scale: 1 }}
             className="col-sm-4 col-xs-12"
@@ -348,9 +490,9 @@ export default function Home() {
                 React Redux Weather App
               </h5>
             </div>
-          </motion.div>
+          </motion.div> */}
           {/* Markdown prev */}
-          <motion.div
+          {/* <motion.div
             whileHover={{ scale: 1.7 }}
             whileTap={{ scale: 1 }}
             className="col-sm-4 col-xs-12"
@@ -377,9 +519,9 @@ export default function Home() {
                 React Redux Markdown Previewer
               </h5>
             </div>
-          </motion.div>
+          </motion.div> */}
           {/* Covid-19 */}
-          <motion.div
+          {/* <motion.div
             whileHover={{ scale: 1.7 }}
             whileTap={{ scale: 1 }}
             className="col-sm-4 col-xs-12"
@@ -406,9 +548,9 @@ export default function Home() {
                 React Redux Coivd-19 All Countries
               </h5>
             </div>
-          </motion.div>
+          </motion.div> */}
           {/* pos-neg comment */}
-          <motion.div
+          {/* <motion.div
             whileHover={{ scale: 1.7 }}
             whileTap={{ scale: 1 }}
             className="col-sm-4 col-xs-12"
@@ -435,9 +577,9 @@ export default function Home() {
                 Deep NLP Pos-Neg Comment Discriminator{" "}
               </h5>
             </div>
-          </motion.div>
+          </motion.div> */}
           {/* Chess */}
-          <motion.div
+          {/* <motion.div
             whileHover={{ scale: 1.7 }}
             whileTap={{ scale: 1 }}
             className="col-sm-4 col-xs-12"
@@ -464,9 +606,9 @@ export default function Home() {
                 Deep Retinanet Chess Piece Recognition
               </h5>
             </div>
-          </motion.div>
+          </motion.div> */}
           {/* Facial Expression */}
-          <motion.div
+          {/* <motion.div
             whileHover={{ scale: 1.7 }}
             whileTap={{ scale: 1 }}
             className="col-sm-4 col-xs-12"
@@ -493,9 +635,9 @@ export default function Home() {
                 Deep Conv Facial Expression Recognition
               </h5>
             </div>
-          </motion.div>
+          </motion.div> */}
           {/* make it talk */}
-          <motion.div
+          {/* <motion.div
             whileHover={{ scale: 1.7 }}
             whileTap={{ scale: 1 }}
             className="col-sm-4 col-xs-12"
@@ -522,9 +664,9 @@ export default function Home() {
                 Deep Talking Photos with MakeItTalk{" "}
               </h5>
             </div>
-          </motion.div>
+          </motion.div> */}
           {/* hand move site */}
-          <motion.div
+          {/* <motion.div
             whileHover={{ scale: 1.7 }}
             whileTap={{ scale: 1 }}
             className="col-sm-4 col-xs-12"
@@ -551,9 +693,48 @@ export default function Home() {
                 React Tensorflow Hand Move Site WebCam
               </h5>
             </div>
-          </motion.div>
+          </motion.div> */}
 
-          {/* ******* */}
+          {horizontal?.map((hor) => (
+            <motion.div
+              key={hor.i}
+              whileHover={{ scale: 1.7 }}
+              whileTap={{ scale: 1 }}
+              className="col-sm-4 col-xs-12"
+            >
+              <div
+                classname="card align-items-center "
+                style={{
+                  backgroundColor: "gold",
+                  borderRadius: 5,
+                }}
+              >
+                <Link href={hor.gitLink} >
+                  <Image
+                    unoptimized
+                    loader={() => hor.vidLink}
+                    src={hor.vidLink}
+                    alt="Image"
+                    width={400}
+                    height={250}
+                    style={{ borderTopLeftRadius: 5, borderTopRightRadius: 5 }}
+                    className="shdwBlack card-img-top pad  borderColorr "
+                  />
+                </Link>
+                <h5
+                  className={
+                    hor.i % 3 == 1
+                      ? `shdw bg-body-tertiary p-1 rounded-bottom`
+                      : hor.i % 3 == 2
+                      ? `midShdw bg-body-tertiary p-1 rounded-bottom `
+                      : `rigShdw bg-body-tertiary p-1 rounded-bottom `
+                  }
+                >
+                  {hor.name}
+                </h5>
+              </div>
+            </motion.div>
+          ))}
 
           <div className="row  g-4 ">
             {/* Face Mask */}
