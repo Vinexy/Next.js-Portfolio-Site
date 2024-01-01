@@ -363,37 +363,7 @@ export default function Home() {
                   </h5>
                 </div>
               </motion.div>
-            ))}
-            {/* Face Mask */}
-            <motion.div
-              whileHover={{ scale: 1.7 }}
-              whileTap={{ scale: 1 }}
-              className="col-xs-12 col-sm-3 "
-            >
-              <div
-                classname=" card align-items-center "
-                style={{
-                  backgroundColor: "gold",
-                  borderRadius: 5,
-                }}
-              >
-                <Link href="https://github.com/Vinexy/Unity-Face-Mask-Android">
-                  <Image
-                    src="https://user-images.githubusercontent.com/85889196/222955010-e690b80c-9526-4197-9e5b-b05849c2b8bd.gif"
-                    alt="Image"
-                    width={400}
-                    height={400}
-                    style={{ borderTopLeftRadius: 5, borderTopRightRadius: 5 }}
-                    className="shdwBlack card-img-top pad  borderColorr "
-                    unoptimized
-                  />
-                </Link>
-                <h5 className="shdw bg-body-tertiary p-1 rounded-bottom ">
-                  Unity Face Mask Android
-                </h5>
-              </div>
-            </motion.div>
-            
+            ))}           
           </div>
         </div>
       </div>
